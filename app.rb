@@ -77,5 +77,5 @@ get '/contacts' do
 end
 
 get '/showusers' do
-	erb 'Hello World'
+	erb :showusers
 end
